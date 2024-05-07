@@ -1,0 +1,78 @@
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    width: min(100% - 2rem, 800px);
+    margin-inline: auto;
+    grid-template-rows: auto 1fr auto;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    padding-top: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: .6rem;
+}
+
+form.inputs {
+    display: flex;
+    max-width: 400px;
+    margin-inline: auto;
+    flex-direction: column;
+    align-items: center;
+}
+input {
+    width: min(90%, 400px);
+    margin-bottom: .5rem;
+    padding: .5rem 1rem;
+}
+button {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    align-self: flex-end;
+}
+
+.output {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+    width: min(100% - 2rem, 800px);
+    margin-inline: auto;
+    min-height: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: .5rem 1rem;
+}
+
+.output div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    min-width: 2rem;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+footer {
+    margin-top: 1rem;
+    text-align: center;
+}
