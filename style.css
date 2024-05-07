@@ -71,6 +71,14 @@ button {
     border-radius: .5rem;
     background-color: rgba(128, 128, 128, 0.2);
 }
+.output div.true {
+    background-color: rgba(102, 255, 0, 0.8);
+    color: white;
+}
+.output div.false {
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
+}
 
 footer {
     margin-top: 1rem;
