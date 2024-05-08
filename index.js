@@ -22,7 +22,7 @@ const palindromeTester = (arr) => {
 //Function for cleaning text
 const cleanText = (text) => {
   //Remove punctuation using regex and convert to lowercase
-  let cleanText = text.replace(/[!"#$%&'()*+,\-./:;<=>?@[\\\]^_`{|}~]/g, '');
+  let cleanText = text.replace(/[!"#$%&'()*+,\-./:;<=>?@[\\\]^_`{|}~]/g, '').toLowerCase();
 
   //Split the cleaned text into individual words
   let words = cleanText.split(/\s+/);

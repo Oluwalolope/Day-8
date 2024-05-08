@@ -4,7 +4,7 @@
 This repository contains the solution for Day 8 of the Engineering Career Expo 4.0 (ECX 4.0) 21 days of code challenge. The challenge was to Create a function that takes an array of strings. Your function should return a corresponding array that tells us if the string at this index is a palindrome or not. A palindrome is a word that reads the same foward as it does backwards e.g madam, racecar, ada, bob etc.
 
 ## Solution
-I solved the challenge using HTML, CSS, and Vanilla JavaScript. The core logic of the solution involves iterating through the string and checking for punctuation marks using regular expression patterns, extracting the punctuations if present, splitting the sentence into words, and reversing the words. I utilized array methods and the `replace()`, `split()`, `reverse()` method on strings to achieve the desired output.
+I solved the challenge using HTML, CSS, and Vanilla JavaScript. The core logic of the solution involves iterating through the string and checking for punctuation marks using regular expression patterns, extracting the punctuations if present, splitting the sentence into words, converting to lowercase,  and reversing the words. I utilized array methods and the `replace()`, `split()`, `reverse()` method on strings to achieve the desired output.
 
 ## Live Site
 You can view the live site demonstrating the solution at [Day 8 Live Site](https://oluwalolope.github.io/Day-8).
